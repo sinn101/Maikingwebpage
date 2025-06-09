@@ -1,0 +1,23 @@
+/*CSSコード*/
+
+#rogo{
+    height: 500px;
+    position: relative;
+    top: 20px;
+    display: block; 
+    margin: auto;
+}
+
+#sabutaitoru{
+    width: auto;
+    height: 150px;
+    line-height: 1.6;
+    position: relative;
+    top: -50px;
+    display: block; 
+    margin: auto;
+}
+
+#ibenntomidasi{
+    font-family: "Soft Gothic Bold";
+}
