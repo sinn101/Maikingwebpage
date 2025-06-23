@@ -1,86 +1,84 @@
-/*CSSコード*/
-
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-#rogo{
-    height: 500px;
-    position: relative;
-    top: 20px;
-    display: block; 
-    margin: auto;
+#logo {
+  height: 500px;
+  position: relative;
+  top: 20px;
+  display: block;
+  margin: auto;
 }
 
-#sabutaitoru{
-    width: auto;
-    height: 150px;
-    line-height: 1.6;
-    position: relative;
-    top: -50px;
-    display: block; 
-    margin: auto;
+#subtitle {
+  width: auto;
+  height: 150px;
+  line-height: 1.6;
+  position: relative;
+  top: -50px;
+  display: block;
+  margin: auto;
 }
 
-#ibenntomidasi{
-    font-family: "Soft Gothic Bold";
+#event-headline {
+  font-family: "Soft Gothic Bold";
 }
 
 #header-area {
-    background-image: url('images/rogohaikei.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    
-  }
+  background-image: url('images/rogohaikei.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
-  /* スライダー全体 */
+/* スライダー全体 */
 
-  .swiper-container {
-    position: relative;
-  }
+.swiper-container {
+  position: relative;
+}
 
-  .swiper {
-    width: 960px;           
-    margin: 0 auto;         
-    padding: 20px 0;
-    position: static;
-    overflow: hidden;
-  }
+.swiper {
+  width: 960px;
+  margin: 0 auto;
+  padding: 20px 0;
+  position: static;
+  overflow: hidden;
+}
 
-  .swiper-slide {
-    display: flex;
-    justify-content: center;
-  }
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+}
 
-  .swiper-container-wrapper {
-    width: 960px;
-    margin: 0 auto;
-    overflow: hidden;  
-    position: relative;
-  }
-  
-  /* 各スライドの画像 */
-  .swiper-slide img {
-    width: 100%;            
-    height: auto;           
-    border: 5px solid #72caea; 
-    border-radius: 10px;    
-    object-fit: cover;      
-  }
+.swiper-container-wrapper {
+  width: 960px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
 
-  :root {
-    --swiper-navigation-sides-offset: 5px;
+/* 各スライドの画像 */
+.swiper-slide img {
+  width: 100%;
+  height: auto;
+  border: 5px solid #72caea;
+  border-radius: 10px;
+  object-fit: cover;
+}
 
-  }
+:root {
+  --swiper-navigation-sides-offset: 5px;
+}
 
 /* ナビボタンを縦中央・横外側に配置 */
-.swiper-button-prev, .swiper-button-next {
+.swiper-button-prev,
+.swiper-button-next {
   position: absolute;
   top: 50%;
-  width: 44px; height: 44px;
+  width: 44px;
+  height: 44px;
   transform: translateY(-50%);
 }
 
