@@ -23,11 +23,13 @@
 }
 
 #event-headline {
-  font-family: "Soft Gothic Bold";
+  font-family: "Soft Gothic Bold", sans-serlf;
+  text-align: center;
+  padding-bottom: 10px;
 }
 
 #header-area {
-  background-image: url('images/rogohaikei.png');
+  background-image: url('images/bg2.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
