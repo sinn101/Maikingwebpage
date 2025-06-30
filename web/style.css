@@ -23,13 +23,13 @@
 }
 
 #event-headline {
-  font-family: "Soft Gothic Bold", sans-serlf;
+  font-family: "Soft Gothic Bold", sans-serif;
   text-align: center;
-  padding-bottom: 10px;
+  padding: 20px;
 }
 
 #header-area {
-  background-image: url('images/bg1.png');
+  background-image: url('images/bg2.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -73,7 +73,8 @@
 :root {
   --swiper-navigation-sides-offset: 5px;
 }
-/*カーソルを合わせたらぼかす*/
+
+/* カーソルを合わせたらぼかす */
 
 .hover-blur {
   transition: 0.3s;
@@ -113,6 +114,7 @@
   left: var(--swiper-navigation-sides-offset);
 }
 
+
 #eventinformationarea {
   background-image: url('images/bg2.png');
     background-size: auto;
@@ -121,7 +123,7 @@
 }
 
 #event-maineventheadline {
-  font-family: "Soft Gothic Bold", sans-serlf;
+  font-family: "Soft Gothic Bold", sans-serif;
   text-align: center;
-  padding-bottom: 10px;
+  padding: 20px;
 }
