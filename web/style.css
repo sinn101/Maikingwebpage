@@ -29,7 +29,7 @@
 }
 
 #header-area {
-  background-image: url('images/bg2.png');
+  background-image: url('images/bg1.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -73,6 +73,27 @@
 :root {
   --swiper-navigation-sides-offset: 5px;
 }
+/*カーソルを合わせたらぼかす*/
+
+.hover-blur {
+  transition: 0.3s;
+}
+
+.hover-blur:hover {
+  filter: blur(4px) brightness(0.7);;
+}
+
+.swiper-slide::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(255, 255, 255, 0);
+  transition: 0.3s;
+}
+
+.swiper-slide:hover::after {
+  background-color: rgba(255, 255, 255, 0.3);
+}
 
 /* ナビボタンを縦中央・横外側に配置 */
 .swiper-button-prev,
@@ -90,4 +111,17 @@
 
 .swiper-button-prev {
   left: var(--swiper-navigation-sides-offset);
+}
+
+#eventinformationarea {
+  background-image: url('images/bg2.png');
+    background-size: auto;
+    background-position: center;
+    background-repeat: repeat;
+}
+
+#event-maineventheadline {
+  font-family: "Soft Gothic Bold", sans-serlf;
+  text-align: center;
+  padding-bottom: 10px;
 }
