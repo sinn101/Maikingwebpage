@@ -127,3 +127,10 @@
   text-align: center;
   padding: 20px;
 }
+
+/**/
+#market-area, #food-area {
+  font-family: "Soft Gothic Bold", sans-serif;
+  text-align: center;
+  padding: 20px;
+}
