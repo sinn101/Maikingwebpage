@@ -1,70 +1,59 @@
 <!DOCTYPE html>
 <html lang="ja">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Webページ</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-  </head>
-  <body>
-    <div id="header-area">
-      <img src="images/logo.png" alt="キャンフェス2025" id="logo" />
-      <img src="images/subtitle.png" alt="みんなで楽しもう" id="subtitle" />
-    </div>
-    <div id="eventinformationarea">
-      <h2 id="event-headline">イベント情報</h2>
 
-      <div class="swiper-container">
-        <div class="swiper">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <a href="eventdetails1.html" target="_blank">
-                <img class="hover-blur" src="images/img1.png" alt="画像1" />
-              </a>
-            </div>
-            <div class="swiper-slide">
-              <a href="eventdetails2.html" target="_blank">
-                <img class="hover-blur" src="images/img2.png" alt="画像2" /> 
-              </a>
-            </div>
-            <div class="swiper-slide">
-              <a href="eventdetails3.html" target="_blank">
-                <img class="hover-blur" src="images/img3.png" alt="画像3" />
-              </a>
-            </div>
-            <div class="swiper-slide">
-              <a href="eventdetails4.html" target="_blank">
-                <img class="hover-blur" src="images/img4.png" alt="画像4" />
-              </a>
-            </div>
-            <div class="swiper-slide">
-              <a href="eventdetails5.html" target="_blank">
-                <img class="hover-blur" src="images/img5.png" alt="画像5" />
-              </a>
-            </div>
-            <div class="swiper-slide">
-              <a href="eventdetails6.html" target="_blank">
-                <img class="hover-blur" src="images/img6.png" alt="画像6" />
-              </a>
-            </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Webページ</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+  <div id="header-area">
+    <img src="images/logo.png" alt="キャンフェス2025" id="logo" />
+    <img src="images/subtitle.png" alt="みんなで楽しもう" id="subtitle" />
+  </div>
+  <div id="eventinformationarea">
+    <h2 id="event-headline" align="LEFT">イベント情報</h2>
+    <div class="swiper-container">
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <a href="eventdetails1.html" target="_blank"><img class="hover-blur" src="images/img1.png" alt="画像1" /></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="eventdetails2.html" target="_blank"><img class="hover-blur" src="images/img2.png" alt="画像2" /></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="eventdetails3.html" target="_blank"><img class="hover-blur" src="images/img3.png" alt="画像3" /></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="eventdetails4.html" target="_blank"> <img class="hover-blur" src="images/img4.png" alt="画像1" /></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="eventdetails5.html" target="_blank"><img class="hover-blur" src="images/img5.png" alt="画像2" /></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="eventdetails6.html" target="_blank"><img class="hover-blur" src="images/img6.png" alt="画像3" /></a>
           </div>
         </div>
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
       </div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+    <h2 id="event-maineventheadline" align="LEFT">メインイベント</h2>
+    <div style="height: 5000px;"></div>
+  </div>
+  <div id="market-area">
+    <img src="images/shoplogo.png" alt="販売ブース" id="shoplogo" />
+  </div>
+  <div id="food-area">
+    <img src="images/foodlogo.png" alt="飲食ブース" id="foodlogo" />
+  </div>
 
-      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-      <script type="text/javascript" src="script.js"></script>
+</body>
 
-      <h2 id="event-maineventheadline">メインイベント</h2>
-      <div style="height: 5000px"></div>
-    </div>
-    <div id="market-area">
-      <h2 id="event-headline">販売ブース</h2>
-    </div>
-    <div id="food-area">
-      <h2 id="event-headline">飲食ブース</h2>
-    </div>
-  </body>
 </html>

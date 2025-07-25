@@ -23,9 +23,9 @@
 }
 
 #event-headline {
-  font-family: "Soft Gothic Bold", sans-serif;
+  font-family: "Soft Gothic Bold", sans-serlf;
   text-align: center;
-  padding: 20px;
+  padding-bottom: 10px;
 }
 
 #header-area {
@@ -73,8 +73,7 @@
 :root {
   --swiper-navigation-sides-offset: 5px;
 }
-
-/* カーソルを合わせたらぼかす */
+/*カーソルを合わせたらぼかす*/
 
 .hover-blur {
   transition: 0.3s;
@@ -90,10 +89,12 @@
   inset: 0;
   background-color: rgba(255, 255, 255, 0);
   transition: 0.3s;
+  pointer-events: none;
 }
 
 .swiper-slide:hover::after {
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: hsla(0, 0%, 100%, 0.2);
+  backdrop-filter: brightness(1.3)
 }
 
 /* ナビボタンを縦中央・横外側に配置 */
@@ -114,23 +115,31 @@
   left: var(--swiper-navigation-sides-offset);
 }
 
-
 #eventinformationarea {
   background-image: url('images/bg2.png');
-  background-size: auto;
-  background-position: center;
-  background-repeat: repeat;
+    background-size: auto;
+    background-position: center;
+    background-repeat: repeat;
 }
 
 #event-maineventheadline {
-  font-family: "Soft Gothic Bold", sans-serif;
+  font-family: "Soft Gothic Bold", sans-serlf;
   text-align: center;
-  padding: 20px;
+  padding-bottom: 10px;
 }
 
-/**/
-#market-area, #food-area {
-  font-family: "Soft Gothic Bold", sans-serif;
-  text-align: center;
-  padding: 20px;
+#shoplogo {
+  height: 400px;
+  position: relative;
+  top: 20px;
+  display: block;
+  margin: auto;
+}
+
+#foodlogo {
+  height: 400px;
+  position: relative;
+  top: 20px;
+  display: block;
+  margin: auto;
 }
