@@ -3,69 +3,71 @@
   padding: 0;
   box-sizing: border-box;
   background-image: url('images/bg2.png');
-    background-size: auto;
-    background-position: center;
-    background-repeat: repeat;
+  background-size: auto;
+  background-position: center;
+  background-repeat: repeat;
+}
+
+#headline-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 0;
+  background: none;
+  width: auto;
+}
+
+#event-rogo {
+  height: 300px;
+  width: auto;
+  background: none;
+  max-width: 40%;
 }
 
 #event-headline {
   font-size: 50px;
   text-align: center;
   background: none;
-  margin: 0;             /* 下余白を消す */
-  margin-left: 70px;     /* 文字だけを右に寄せたいならOK */
+  margin: 0;
+  margin-left: 70px;
   height: auto;
   width: auto;
-  padding-right: 640px;  /* ←これは必要？たぶん削っていいかも */
   white-space: nowrap;
-  flex-shrink: 0; 
+  flex-shrink: 0;
   display: inline-block;
   writing-mode: horizontal-tb;
-}
-
-#headline-wrap{
-  display: flex;
-  justify-content: center;  
-  align-items: center;      
-  gap: 12px;                
-  margin-bottom: 0;         
-  background: none;
-  width: auto;
-}
-
-#event-rogo{
-  height: 300px; 
-  width: auto;
-  background: none;
-  max-width: 40%
+  padding-right: 360px;
 }
 
 #event-information {
-    width: 2000px;
-    margin-left: auto; margin-right: auto;
-    padding-left: 640px;
-    background: none;
-    margin-bottom: 200px;
+  width: 2000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 640px;
+  background: none;
+  margin-bottom: 200px;
 }
 
 #event-deta-title {
-    background: none;
-    text-align: center;
-    font-size: 40px;
+  background: none;
+  text-align: center;
+  font-size: 40px;
 }
 
 #titletext {
-  text-align:center;
+  text-align: center;
   font-size: 35px;
   background: none;
   margin-bottom: 5px;
 }
 
 #event-deta-text {
-    background: none;
-    width: 850px;
-    margin-left: auto; margin-right: auto;
-    font-size: 30px;
+  background: none;
+  width: 850px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 30px;
 }
 
 .swiper-container {
@@ -105,6 +107,7 @@
 :root {
   --swiper-navigation-sides-offset: 5px;
 }
+
 /*カーソルを合わせたらぼかす*/
 
 .hover-blur {
@@ -112,7 +115,8 @@
 }
 
 .hover-blur:hover {
-  filter: blur(4px) brightness(0.7);;
+  filter: blur(4px) brightness(0.7);
+  ;
 }
 
 .swiper-slide::after {
