@@ -2,5 +2,166 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-image: url('images/bg2.png');
+    background-size: auto;
+    background-position: center;
+    background-repeat: repeat;
 }
 
+#event-headline {
+  font-size: 50px;
+  text-align: center;
+  background: none;
+  margin: 0;
+  margin-left: 70px;
+  height: auto;
+  width: auto;
+  white-space: nowrap;
+  flex-shrink: 0;
+  display: inline-block;
+  writing-mode: horizontal-tb;
+  padding-right: 360px;
+}
+
+#headline-wrap{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 0;
+  background: none;
+  width: auto;
+}
+
+#event-rogo{
+  height: 300px;
+  width: auto;
+  background: none;
+  max-width: 40%;
+}
+
+#event-information {
+    width: 2000px;
+    margin-left: auto; margin-right: auto;
+    padding-left: 640px;
+    background: none;
+    margin-bottom: 200px;
+}
+
+#event-deta-title {
+    background: none;
+    text-align: center;
+    font-size: 40px;
+}
+
+#titletext {
+  text-align:center;
+  font-size: 35px;
+  background: none;
+  margin-bottom: 5px;
+}
+
+#event-deta-text {
+    background: none;
+    width: 850px;
+    margin-left: auto; margin-right: auto;
+    font-size: 30px;
+}
+
+#presentation_table {
+    border-collapse: collapse;
+    margin: 0 auto; /* 表を中央揃え */
+    width: 80%; /* 好みで調整 */
+    background-color: transparent; /* 表の背景を透明に */
+}
+
+th, td {
+    border: 1px solid #333;
+    padding: 8px;
+    text-align: center;
+    background-color: transparent; /* セルの背景も透明 */
+  }
+
+#presentation_title{
+    background: none;
+    text-align: center;
+}
+
+.swiper-container {
+  position: relative;
+  background: none;
+}
+
+.swiper {
+  width: 960px;
+  margin: 0 auto;
+  padding: 20px 0;
+  position: static;
+  overflow: hidden;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+}
+
+.swiper-container-wrapper {
+  width: 960px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+
+/* 各スライドの画像 */
+.swiper-slide img {
+  width: 100%;
+  height: auto;
+  border: 5px solid #72caea;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+:root {
+  --swiper-navigation-sides-offset: 5px;
+}
+/*カーソルを合わせたらぼかす*/
+
+.hover-blur {
+  transition: 0.3s;
+}
+
+.hover-blur:hover {
+  filter: blur(4px) brightness(0.7);;
+}
+
+.swiper-slide::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(255, 255, 255, 0);
+  transition: 0.3s;
+  pointer-events: none;
+}
+
+.swiper-slide:hover::after {
+  background-color: hsla(0, 0%, 100%, 0.2);
+  backdrop-filter: brightness(1.3)
+}
+
+/* ナビボタンを縦中央・横外側に配置 */
+.swiper-button-prev,
+.swiper-button-next {
+  position: absolute;
+  top: 50%;
+  width: 44px;
+  height: 44px;
+  transform: translateY(-50%);
+}
+
+.swiper-button-next {
+  left: var(--swiper-navigation-sides-offset);
+}
+
+.swiper-button-prev {
+  left: var(--swiper-navigation-sides-offset);
+}
