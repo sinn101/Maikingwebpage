@@ -3,9 +3,9 @@
   padding: 0;
   box-sizing: border-box;
   background-image: url('images/bg2.png');
-    background-size: auto;
-    background-position: center;
-    background-repeat: repeat;
+  background-size: auto;
+  background-position: center;
+  background-repeat: repeat;
 }
 
 #event-headline {
@@ -23,7 +23,7 @@
   padding-right: 360px;
 }
 
-#headline-wrap{
+#headline-wrap {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -33,7 +33,7 @@
   width: auto;
 }
 
-#event-rogo{
+#event-rogo {
   height: 300px;
   width: auto;
   background: none;
@@ -41,50 +41,57 @@
 }
 
 #event-information {
-    width: 2000px;
-    margin-left: auto; margin-right: auto;
-    padding-left: 640px;
-    background: none;
-    margin-bottom: 200px;
+  width: 2000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 640px;
+  background: none;
+  margin-bottom: 200px;
 }
 
 #event-deta-title {
-    background: none;
-    text-align: center;
-    font-size: 40px;
+  background: none;
+  text-align: center;
+  font-size: 40px;
 }
 
 #titletext {
-  text-align:center;
+  text-align: center;
   font-size: 35px;
   background: none;
   margin-bottom: 5px;
 }
 
 #event-deta-text {
-    background: none;
-    width: 850px;
-    margin-left: auto; margin-right: auto;
-    font-size: 30px;
+  background: none;
+  width: 850px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 30px;
 }
 
 #presentation_table {
-    border-collapse: collapse;
-    margin: 0 auto; /* 表を中央揃え */
-    width: 80%; /* 好みで調整 */
-    background-color: transparent; /* 表の背景を透明に */
+  border-collapse: collapse;
+  margin: 0 auto;
+  /* 表を中央揃え */
+  width: 80%;
+  /* 好みで調整 */
+  background-color: transparent;
+  /* 表の背景を透明に */
 }
 
-th, td {
-    border: 1px solid #333;
-    padding: 8px;
-    text-align: center;
-    background-color: transparent; /* セルの背景も透明 */
-  }
+th,
+td {
+  border: 1px solid #333;
+  padding: 8px;
+  text-align: center;
+  background-color: transparent;
+  /* セルの背景も透明 */
+}
 
-#presentation_title{
-    background: none;
-    text-align: center;
+#presentation_title {
+  background: none;
+  text-align: center;
 }
 
 .swiper-container {
@@ -115,15 +122,18 @@ th, td {
 /* 各スライドの画像 */
 .swiper-slide img {
   width: 100%;
-  height: auto;
+  height: 215px;
+  object-fit: contain;
+  background-color: #fcfcfc;
   border: 5px solid #72caea;
   border-radius: 10px;
-  object-fit: cover;
+  padding: 3px;
 }
 
 :root {
   --swiper-navigation-sides-offset: 5px;
 }
+
 /*カーソルを合わせたらぼかす*/
 
 .hover-blur {
@@ -131,7 +141,8 @@ th, td {
 }
 
 .hover-blur:hover {
-  filter: blur(4px) brightness(0.7);;
+  filter: blur(4px) brightness(0.7);
+  ;
 }
 
 .swiper-slide::after {
@@ -169,4 +180,3 @@ th, td {
   padding: 50px calc(3%) 50px calc(15%);
   background: none;
 }
-

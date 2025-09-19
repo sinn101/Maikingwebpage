@@ -64,15 +64,18 @@
 /* 各スライドの画像 */
 .swiper-slide img {
   width: 100%;
-  height: auto;
+  height: 215px;
+  object-fit: contain;
+  background-color: #fcfcfc;
   border: 5px solid #72caea;
   border-radius: 10px;
-  object-fit: cover;
+  padding: 3px;
 }
 
 :root {
   --swiper-navigation-sides-offset: 5px;
 }
+
 /*カーソルを合わせたらぼかす*/
 
 .hover-blur {
@@ -80,7 +83,8 @@
 }
 
 .hover-blur:hover {
-  filter: blur(4px) brightness(0.7);;
+  filter: blur(4px) brightness(0.7);
+  ;
 }
 
 .swiper-slide::after {
@@ -109,17 +113,21 @@
 
 .swiper-button-next {
   left: var(--swiper-navigation-sides-offset);
+  padding: 50px calc(15%) 50px calc(3%);
+  background: none;
 }
 
 .swiper-button-prev {
   left: var(--swiper-navigation-sides-offset);
+  padding: 50px calc(3%) 50px calc(15%);
+  background: none;
 }
 
 #eventinformationarea {
   background-image: url('images/bg2.png');
-    background-size: auto;
-    background-position: center;
-    background-repeat: repeat;
+  background-size: auto;
+  background-position: center;
+  background-repeat: repeat;
 }
 
 #event-maineventheadline {
@@ -131,71 +139,90 @@
 #venuemap_img {
   text-align: center;
   margin-bottom: 100px;
-  width:70%;
+  width: 70%;
 }
 
 #venuemap_div {
-  text-align:center;
+  text-align: center;
 }
 
 
 .air {
   background-color: #ffffff;
 }
+
 .open {
   background-color: #ffbdbd;
 }
-.changingroom{
+
+.changingroom {
   background-color: #ffe9b0;
 }
-.OP{
+
+.OP {
   background-color: #ff6363;
 }
-.firstaidroom{
+
+.firstaidroom {
   background-color: #ffc2c2;
 }
-.introquiz{
+
+.introquiz {
   background-color: #f6a7ff;
 }
-.gametournament{
+
+.gametournament {
   background-color: #8676ff;
 }
-.tensecondchallenge{
+
+.tensecondchallenge {
   background-color: #ff769f;
 }
-.eatinganddrinking{
+
+.eatinganddrinking {
   background-color: #99ffa3;
 }
-.sale{
+
+.sale {
   background-color: #6cff7a;
 }
-.Thatwastherightanswerfromthemorning{
+
+.Thatwastherightanswerfromthemorning {
   background-color: #91e5ff;
 }
-.lunchbreak{
+
+.lunchbreak {
   background-color: #99ffa3;
 }
-.performance{
+
+.performance {
   background-color: #f2ff8b;
 }
-.susida{
+
+.susida {
   background-color: #76bcfa;
 }
-.restspace{
+
+.restspace {
   background-color: #65ffaf;
 }
-.ennnitiou{
+
+.ennnitiou {
   background-color: #ff7142;
 }
-.tavsmennta{
+
+.tavsmennta {
   background-color: #ff659d;
 }
-.ED{
+
+.ED {
   background-color: #ff6363;
 }
-.refund{
+
+.refund {
   background-color: #ffbdbd;
 }
+
 #shoplogo {
   height: 400px;
   position: relative;
@@ -204,7 +231,7 @@
   margin: auto;
 }
 
-#food-area{
+#food-area {
   background-image: url(images/bg1.png);
 }
 
@@ -219,38 +246,38 @@
   margin: auto;
 }
 
-#food-date{
+#food-date {
   font-family: "Soft Gothic Bold", sans-serif;
   text-align: center;
   padding-bottom: 50px;
   background-image: url('images/bg2.png');
-    background-size: auto;
-    background-position: center;
-    background-repeat: repeat;
+  background-size: auto;
+  background-position: center;
+  background-repeat: repeat;
 }
 
-#food-text{
+#food-text {
 
   font-family: "Soft Gothic Bold", sans-serif;
   text-align: center;
   padding-bottom: 50px;
   background-image: url('images/bg2.png');
-    background-size: auto;
-    background-position: center;
-    background-repeat: repeat;
-    
+  background-size: auto;
+  background-position: center;
+  background-repeat: repeat;
+
   body {
     font-family: "Yu Gothic", sans-serif;
     margin: 20px;
   }
 
-  #menu-background{
-   background-image: url(images/menu.png);
-   background-size:60%;
-   background-repeat:no-repeat;
-   background-position: 480px -10px;
-   background-size: contain;
-   min-height: 100vh;
+  #menu-background {
+    background-image: url(images/menu.png);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: 480px -10px;
+    background-size: contain;
+    min-height: 100vh;
 
   }
 
@@ -260,25 +287,27 @@
     font-size: 36px;
     margin-bottom: 10px;
     margin-top: 30px;
-    
+
   }
 
   /* セクション見出し */
   h2 {
     text-align: center;
     font-size: 24px;
-    margin-top:20px;
+    margin-top: 20px;
     margin-bottom: 10px;
   }
 
   /* メニューリスト */
   .menu-item {
     display: flex;
-    justify-content: space-between; /* 左右に分ける */
+    justify-content: space-between;
+    /* 左右に分ける */
     margin: 5px 0;
-    padding: 0 500px; /* 左右に余白 */
+    padding: 0 500px;
+    /* 左右に余白 */
     font-size: 18px;
-    margin-bottom:30px;
+    margin-bottom: 30px;
   }
 
   /* 中央揃えのテキスト */
@@ -287,4 +316,3 @@
     margin: 5px 0;
   }
 }
-

@@ -98,10 +98,12 @@
 /* 各スライドの画像 */
 .swiper-slide img {
   width: 100%;
-  height: auto;
+  height: 215px;
+  object-fit: contain;
+  background-color: #fcfcfc;
   border: 5px solid #72caea;
   border-radius: 10px;
-  object-fit: cover;
+  padding: 3px;
 }
 
 :root {
