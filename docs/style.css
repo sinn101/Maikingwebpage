@@ -128,9 +128,14 @@
   padding-bottom: 50px;
 }
 
-#venuemap {
+#venuemap_img {
   text-align: center;
   margin-bottom: 100px;
+  width:70%;
+}
+
+#venuemap_div {
+  text-align:center;
 }
 
 
