@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Webページ</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+  <div id="header-area">
+    <img src="images/logo.png" alt="キャンフェス2025" id="logo" />
+    <img src="images/subtitle.png" alt="みんなで楽しもう" id="subtitle" />
+  </div>
+  <div id="eventinformationarea">
+    <h2 id="event-headline">イベント情報</h2>
+    <div class="swiper-container">
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <a href="eventdetails1.html" target="_blank"><img class="hover-blur" src="images/ennitiourogo.png" alt="縁日王" /></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="eventdetails2.html" target="_blank"><img class="hover-blur" src="images/intorokuizurogo.png" alt="イントロクイズ" /></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="eventdetails3.html" target="_blank"><img class="hover-blur" src="images/TAvsmennta.png" alt="TA vs メンター" /></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="eventdetails4.html" target="_blank"> <img class="hover-blur" src="images/presentationrogo.png" alt="ステージパフォーマンス" /></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="eventdetails5.html" target="_blank"><img class="hover-blur" src="images/asakarasoreseikairogo.png" alt="朝からそれ正解" /></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="eventdetails6.html" target="_blank"><img class="hover-blur" src="images/gametournamentrogo.png" alt="ゲーム大会" /></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="eventdetails7.html" target="_blank"><img class="hover-blur" src="images/10secondchallengerogo.png" alt="10秒チャレンジ" /></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="eventdetails8.html" target="_blank"><img class="hover-blur" src="images/susidarogo.png" alt="寿司打" /></a>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+    <h2 id="event-maineventheadline">基本情報</h2>
+    <h2 id="venuemap">会場図</h2>
+     <img src="images/venuemap.png" alt="会場図" id="venuemap_img" />
+    <h2 id="venuemap">タイムテーブル</h2>
+<head>
+  <meta charset="UTF-8">
+  <title>タイムテーブル</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    th, td {
+      border: 1px solid black;
+      text-align: center;
+      padding: 4px;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+  </style>
+</head>
+<body>
+  <table>
+    <thead>
+      <tr>
+        <th>時間</th>
+        <th>全体</th>
+        <th>メイン</th>
+        <th>六角</th>
+        <th>六角(常設)</th>
+        <th>面談室１</th>
+        <th>面談室２</th>
+        <th>教室</th>
+        <th>飲食</th>
+      </tr>
+    </thead>
+    <tbody class="air">
+      <tr><td>09:30</td><td></td><td></td><td></td><td></td><td class="changingroom">更衣室（女）</td><td class="changingroom">更衣室（男）</td><td></td><td></td></tr>
+      <tr><td>09:40</td><td></td><td></td><td></td><td></td><td class="changingroom"></td><td class="changingroom"></td><td></td><td></td></tr>
+      <tr><td>09:50</td><td></td><td></td><td></td><td></td><td class="changingroom"></td><td class="changingroom"></td><td></td><td></td></tr>
+      <tr><td>10:00</td><td class="open">開場</td><td></td><td></td><td></td><td class="changingroom"></td><td class="changingroom"></td><td></td><td></td></tr>
+      <tr><td>10:10</td><td class="open"></td><td></td><td></td><td></td><td class="changingroom"></td><td class="changingroom"></td><td></td><td></td></tr>
+      <tr><td>10:20</td><td class="open"></td><td></td><td></td><td></td><td class="changingroom"></td><td class="changingroom"></td><td></td><td></td></tr>
+      <tr><td>10:30</td><td class="OP">OP</td><td></td><td></td><td></td><td class="firstaidroom">救護室</td><td class="firstaidroom">救護室</td><td></td><td></td></tr>
+      <tr><td>10:40</td><td class="OP"></td><td></td><td></td><td></td><td class="firstaidroom"></td><td class="firstaidroom"></td><td></td><td></td></tr>
+      <tr><td>10:50</td><td class="OP"></td><td></td><td></td><td></td><td class="firstaidroom"></td><td class="firstaidroom"></td><td></td><td></td></tr>
+      <tr><td>11:00</td><td></td><td class="introquiz">イントロクイズ</td><td class="gametournament">ゲーム大会</td><td class="tensecondchallenge">10秒チャレンジ</td><td class="firstaidroom"></td><td class="firstaidroom"></td><td class="eatinganddrinking">飲食</td><td class="sale">販売開始</td></tr>
+      <tr><td>11:10</td><td></td><td class="introquiz"></td><td class="gametournament"></td><td class="tensecondchallenge"></td><td class="firstaidroom"></td><td class="firstaidroom"></td><td class="eatinganddrinking"></td><td class="sale"></td></tr>
+      <tr><td>11:20</td><td></td><td class="introquiz"></td><td class="gametournament"></td><td class="tensecondchallenge"></td><td class="firstaidroom"></td><td class="firstaidroom"></td><td class="eatinganddrinking"></td><td class="sale"></td></tr>
+      <tr><td>11:30</td><td></td><td class="Thatwastherightanswerfromthemorning">朝からそれ正解</td><td class="gametournament"></td><td class="tensecondchallenge"></td><td class="firstaidroom"></td><td class="firstaidroom"></td><td class="eatinganddrinking"></td><td class="sale"></td></tr>
+      <tr><td>11:40</td><td></td><td class="Thatwastherightanswerfromthemorning"></td><td class="gametournament"></td></td><td class="tensecondchallenge"></td><td class="firstaidroom"></td><td class="firstaidroom"></td><td class="eatinganddrinking"></td><td class="sale"></td></tr>
+      <tr><td>11:50</td><td></td><td class="Thatwastherightanswerfromthemorning"></td><td class="gametournament"></td></td><td class="tensecondchallenge"></td><td class="firstaidroom"></td><td class="firstaidroom"></td><td class="eatinganddrinking"></td><td class="sale"></td></tr>
+      <tr><td>12:00</td><td class="lunchbreak">お昼休憩</td><td></td><td></td><td></td><td class="firstaidroom"></td><td class="firstaidroom"></td><td class="eatinganddrinking"></td><td class="sale"></td></tr>
+      <tr><td>12:10</td><td class="lunchbreak"></td><td></td><td></td><td></td><td class="firstaidroom"></td><td class="firstaidroom"></td><td class="eatinganddrinking"></td><td class="sale"></td></tr>
+      <tr><td>12:20</td><td class="lunchbreak"></td><td></td><td></td><td></td><td class="firstaidroom"></td><td class="firstaidroom"></td><td class="eatinganddrinking"></td><td class="sale"></td></tr>
+      <tr><td>12:30</td><td class="lunchbreak"></td><td></td><td></td><td></td><td class="firstaidroom"></td><td class="firstaidroom"></td><td class="eatinganddrinking"></td><td class="sale"></td></tr>
+      <tr><td>12:40</td><td class="lunchbreak"></td><td></td><td></td><td></td><td class="firstaidroom"></td><td class="firstaidroom"></td><td class="eatinganddrinking"></td><td class="sale"></td></tr>
+      <tr><td>12:50</td><td class="lunchbreak"></td><td></td><td></td><td></td><td class="firstaidroom"></td><td class="firstaidroom"></td><td class="eatinganddrinking"></td><td class="sale"></td></tr>
+      <tr><td>13:00</td><td></td><td class="performance">パフォーマンス</td><td class="gametournament">ゲーム大会</td><td class="susida">寿司打チャレ</td><td class="firstaidroom"></td><td class="firstaidroom"></td><td class="eatinganddrinking"></td><td class="sale"></td></tr>
+      <tr><td>13:10</td><td></td><td class="performance"></td><td class="gametournament"></td><td class="susida"></td><td class="firstaidroom"></td><td class="firstaidroom"></td><td class="eatinganddrinking"></td><td class="sale"></td></tr>
+      <tr><td>13:20</td><td></td><td class="performance"></td><td class="gametournament"></td><td class="susida"></td><td class="firstaidroom"></td><td class="firstaidroom"></td><td class="eatinganddrinking"></td><td class="sale"></td></tr>
+      <tr><td>13:30</td><td></td><td class="performance"></td><td class="gametournament"></td><td class="susida"></td><td class="firstaidroom"></td><td class="firstaidroom"></td><td class="eatinganddrinking"></td><td class="sale">終了予定</td></tr>
+      <tr><td>13:40</td><td></td><td class="performance"></td><td class="gametournament"></td><td class="susida"></td><td class="firstaidroom"></td><td class="firstaidroom"></td><td class="restspace">休憩スペース</td><td></td></tr>
+      <tr><td>13:50</td><td></td><td class="performance">休憩</td><td class="gametournament"></td><td class="susida"></td><td class="firstaidroom"></td><td class="firstaidroom"></td><td class="restspace"></td><td></td></tr>
+      <tr><td>14:00</td><td></td><td class="performance"></td><td></td><td class="susida"></td><td class="firstaidroom"></td><td class="firstaidroom"></td><td class="restspace"></td><td></td></tr>
+      <tr><td>14:10</td><td></td><td class="performance"></td><td class="ennnitiou">縁日王</td><td class="susida"></td><td class="firstaidroom"></td><td class="firstaidroom"></td><td class="restspace"></td><td></td></tr>
+      <tr><td>14:20</td><td></td><td class="performance"></td><td class="ennnitiou"></td><td class="susida"></td><td class="firstaidroom"></td><td class="firstaidroom"></td><td class="restspace"></td><td></td></tr>
+      <tr><td>14:30</td><td></td><td class="performance"></td><td class="ennnitiou"></td><td class="susida"></td><td class="firstaidroom"></td><td class="firstaidroom"></td><td class="restspace"></td><td></td></tr>
+      <tr><td>14:40</td><td></td><td class="performance"></td><td class="ennnitiou"></td><td class="susida"></td><td class="firstaidroom"></td><td class="firstaidroom"></td><td class="restspace"></td><td></td></tr>
+      <tr><td>14:50</td><td></td><td class="performance"></td><td></td><td class="susida"></td><td class="firstaidroom"></td><td class="firstaidroom"></td><td class="restspace"></td><td></td></tr>
+      <tr><td>15:00</td><td></td><td></td><td></td><td class="susida"></td><td class="firstaidroom"></td><td class="firstaidroom"></td><td class="restspace"></td><td></td></tr>
+      <tr><td>15:10</td><td></td><td class="tavsmennta">メンターVSTA</td><td></td><td></td><td class="firstaidroom"></td><td class="firstaidroom"></td><td class="restspace"></td><td></td></tr>
+      <tr><td>15:20</td><td></td><td class="tavsmennta"></td><td></td><td></td><td class="firstaidroom"></td><td class="firstaidroom"></td><td class="restspace"></td><td></td></tr>
+      <tr><td>15:30</td><td></td><td class="tavsmennta"></td><td></td><td></td><td class="firstaidroom"></td><td class="firstaidroom"></td><td class="restspace"></td><td></td></tr>
+      <tr><td>15:40</td><td></td><td class="tavsmennta"></td><td></td><td></td><td class="firstaidroom"></td><td class="firstaidroom"></td><td class="restspace"></td><td></td></tr>
+      <tr><td>15:50</td><td></td><td class="tavsmennta"></td><td></td><td></td><td class="firstaidroom"></td><td class="firstaidroom"></td><td class="restspace"></td><td></td></tr>
+      <tr><td>16:00</td><td class="ED">ED</td><td></td><td></td><td></td><td class="firstaidroom"></td><td class="firstaidroom"></td><td></td><td></td></tr>
+      <tr><td>16:10</td><td class="ED"></td><td></td><td></td><td></td><td class="firstaidroom"></td><td class="firstaidroom"></td><td></td><td></td></tr>
+      <tr><td>16:20</td><td class="ED"></td><td></td><td></td><td></td><td class="firstaidroom"></td><td class="firstaidroom"></td><td></td><td></td></tr>
+      <tr><td>16:30</td><td class="refund">払い戻し</td><td></td><td></td><td></td><td class="changingroom">更衣室（女）</td><td class="changingroom">更衣室（男）</td><td></td><td></td></tr>
+      <tr><td>16:40</td><td class="refund"></td><td></td><td></td><td></td><td class="changingroom"></td><td class="changingroom"></td><td></td><td></td></tr>
+      <tr><td>16:50</td><td class="refund"></td><td></td><td></td><td></td><td class="changingroom"></td><td class="changingroom"></td><td></td><td></td></tr>
+      <tr><td>17:00</td><td class="refund"></td><td></td><td></td><td></td><td class="changingroom"></td><td class="changingroom"></td><td></td><td></td></tr>
+      <tr><td>17:10</td><td class="refund"></td><td></td><td></td><td></td><td class="changingroom"></td><td class="changingroom"></td><td></td><td></td></tr>
+    </tbody>
+  </table>
+   <!-- <div style="height: 5000px;"></div>
+  </div>
+  <div id="market-area">
+    <img src="images/shoplogo.png" alt="販売ブース" id="shoplogo" />
+  </div>
+  <div id="food-area">
+    <img src="images/foodlogo.png" alt="飲食ブース" id="foodlogo" />
+  </div>
+-->
+</body>
+
+</html>
