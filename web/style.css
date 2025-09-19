@@ -125,9 +125,72 @@
 #event-maineventheadline {
   font-family: "Soft Gothic Bold", sans-serif;
   text-align: center;
-  padding-bottom: 10px;
+  padding-bottom: 50px;
 }
 
+#venuemap {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+
+.air {
+  background-color: #ffffff;
+}
+.open {
+  background-color: #ffbdbd;
+}
+.changingroom{
+  background-color: #ffe9b0;
+}
+.OP{
+  background-color: #ff6363;
+}
+.firstaidroom{
+  background-color: #ffc2c2;
+}
+.introquiz{
+  background-color: #f6a7ff;
+}
+.gametournament{
+  background-color: #8676ff;
+}
+.tensecondchallenge{
+  background-color: #ff769f;
+}
+.eatinganddrinking{
+  background-color: #99ffa3;
+}
+.sale{
+  background-color: #6cff7a;
+}
+.Thatwastherightanswerfromthemorning{
+  background-color: #91e5ff;
+}
+.lunchbreak{
+  background-color: #99ffa3;
+}
+.performance{
+  background-color: #f2ff8b;
+}
+.susida{
+  background-color: #76bcfa;
+}
+.restspace{
+  background-color: #65ffaf;
+}
+.ennnitiou{
+  background-color: #ff7142;
+}
+.tavsmennta{
+  background-color: #ff659d;
+}
+.ED{
+  background-color: #ff6363;
+}
+.refund{
+  background-color: #ffbdbd;
+}
 #shoplogo {
   height: 400px;
   position: relative;
