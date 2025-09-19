@@ -146,9 +146,11 @@
 .swiper-button-next {
   left: var(--swiper-navigation-sides-offset);
   padding: 50px calc(15%) 50px calc(3%);
+  background: none;
 }
 
 .swiper-button-prev {
   left: var(--swiper-navigation-sides-offset);
   padding: 50px calc(3%) 50px calc(15%);
+  background: none;
 }
