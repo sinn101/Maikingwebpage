@@ -109,14 +109,10 @@
 
 .swiper-button-next {
   left: var(--swiper-navigation-sides-offset);
-  padding: 50px calc(15%) 50px calc(3%);
-  background: none;
 }
 
 .swiper-button-prev {
   left: var(--swiper-navigation-sides-offset);
-  padding: 50px calc(3%) 50px calc(15%);
-  background: none;
 }
 
 #eventinformationarea {
@@ -208,10 +204,85 @@
   margin: auto;
 }
 
+#food-area{
+  background-image: url(images/bg1.png);
+}
+
 #foodlogo {
+  background-image: url(images/bg2.png);
+  background-image: url(images/foodbg.png);
+  background-size: cover;
+  background-position: center;
   height: 400px;
   position: relative;
-  top: 20px;
   display: block;
   margin: auto;
 }
+
+#food-date{
+  font-family: "Soft Gothic Bold", sans-serif;
+  text-align: center;
+  padding-bottom: 50px;
+  background-image: url('images/bg2.png');
+    background-size: auto;
+    background-position: center;
+    background-repeat: repeat;
+}
+
+#food-text{
+
+  font-family: "Soft Gothic Bold", sans-serif;
+  text-align: center;
+  padding-bottom: 50px;
+  background-image: url('images/bg2.png');
+    background-size: auto;
+    background-position: center;
+    background-repeat: repeat;
+    
+  body {
+    font-family: "Yu Gothic", sans-serif;
+    margin: 20px;
+  }
+
+  #menu-background{
+   background-image: url(images/menu.png);
+   background-size:30%;
+   background-repeat:no-repeat;
+   background-position: center;
+
+  }
+
+  /* メニューの大見出し */
+  h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    
+  }
+
+  /* セクション見出し */
+  h2 {
+    text-align: center;
+    font-size: 24px;
+
+    margin-bottom: 10px;
+  }
+
+  /* メニューリスト */
+  .menu-item {
+    display: flex;
+    justify-content: space-between; /* 左右に分ける */
+    margin: 5px 0;
+    padding: 0 500px; /* 左右に余白 */
+    font-size: 18px;
+     margin-bottom: 40px;
+  }
+
+  /* 中央揃えのテキスト */
+  .center-text {
+    text-align: center;
+    margin: 5px 0;
+  }
+}
+

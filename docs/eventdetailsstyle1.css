@@ -38,7 +38,7 @@
     width: 2000px;
     margin-left: auto; margin-right: auto;
     padding-left: 640px;
-    background: color #ffffff20;
+    background:none;
     margin-bottom: 200px;
 }
 
@@ -56,7 +56,7 @@
 }
 
 #event-deta-text {
-    background: none;
+    background:none;
     width: 850px;
     margin-left: auto; margin-right: auto;
     font-size: 30px;
@@ -135,12 +135,8 @@
 
 .swiper-button-next {
   left: var(--swiper-navigation-sides-offset);
-  padding: 50px calc(15%) 50px calc(3%);
-  background: none;
 }
 
 .swiper-button-prev {
   left: var(--swiper-navigation-sides-offset);
-  padding: 50px calc(3%) 50px calc(15%);
-  background: none;
 }
